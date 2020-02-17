@@ -1,6 +1,6 @@
 {
-  "name": "local-npm",
-  "version": "2.2.2",
+  "name": "@smookpub/local-npm",
+  "version": "0.1.0",
   "description": "Local and offline-first npm mirror",
   "main": "lib/index.js",
   "scripts": {
@@ -15,8 +15,8 @@
     "node": ">= 6"
   },
   "author": {
-    "name": "Nolan Lawson",
-    "email": "nolan@nolanlawson.com"
+    "name": "Soumik Mukherjee",
+    "email": "me@soumikmukherjee.dev"
   },
   "bin": {
     "local-npm": "bin/index.js"
@@ -26,7 +26,7 @@
     "url": "https://github.com/local-npm/local-npm.git"
   },
   "contributors": [
-    "Gabriel J. Csapo <gabecsapo@gmail.com>"
+    "Soumik Mukherjee <me@soumikmukherjee.dev>"
   ],
   "license": "Apache-2.0",
   "dependencies": {
@@ -74,7 +74,8 @@
     "tape": "^4.8.0",
     "url-loader": "^0.6.2",
     "webpack": "^4.41.6",
-    "webpack-dev-server": "^2.9.2",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
     "whatwg-fetch": "^2.0.3"
   }
 }
